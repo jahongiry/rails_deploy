@@ -83,5 +83,5 @@ production:
   <<: *default
   url: <%= ENV["DATABASE_URL"] %>
   database: rail_upload_production
-  username: rail_upload
+  username: postgres
   password: <%= ENV["RAIL_UPLOAD_DATABASE_PASSWORD"] %>
